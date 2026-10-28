@@ -1,5 +1,5 @@
 import type {Request,Response} from 'express';
-import {evaluate} from './engine';
+import {evaluate} from './engine.js';
 export function scoreHandler(req:Request,res:Response){
  res.setHeader('Cache-Control','no-store');
  if(req.method!=='POST') {res.setHeader('Allow','POST');res.status(405).json({error:'仅支持POST'});return;}
