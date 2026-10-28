@@ -1,5 +1,5 @@
 import scoring from './data/scoring.cjs';
-import bank from './data/questions.v4.json';
+import bank from './data/questions.v4.json' with { type: 'json' };
 export type Answers = Record<string,number>;
 export function validateAnswers(value: unknown): asserts value is Answers {
  if(!value || typeof value!=='object' || Array.isArray(value)) throw new Error('请提交40道题的答案');
