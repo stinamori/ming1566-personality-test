@@ -1,0 +1,1446 @@
+{
+  "meta": {
+    "version": "4.0.0",
+    "type": "fictional_character_personality_quiz",
+    "locale": "zh-CN",
+    "total_questions": 40,
+    "normal_characters": 21,
+    "hidden_characters": 1,
+    "question_categories": {
+      "base": 24,
+      "discrimination": 12,
+      "deep": 4
+    },
+    "dimensions": {
+      "D1": "原则坚守",
+      "D2": "权力控制",
+      "D3": "关系与权力敏感",
+      "D4": "战略长远",
+      "D5": "现实变通",
+      "D6": "责任担当",
+      "D7": "利益驱动",
+      "D8": "普遍共情",
+      "D9": "冲突表达",
+      "D10": "风险承受",
+      "D11": "独立判断",
+      "D12": "情绪克制",
+      "D13": "私人关系忠诚",
+      "D14": "专业使命"
+    },
+    "features": {
+      "F1": "间接控制",
+      "F2": "既得利益维护",
+      "F3": "权责边界敏感",
+      "F4": "竞争威胁敏感",
+      "F5": "专业使命优先",
+      "F6": "开放信任与好奇心",
+      "F7": "主导者忠诚",
+      "F8": "家庭与亲近者布局",
+      "F9": "上进表现欲",
+      "F10": "忠义底线",
+      "F11": "格局重构"
+    },
+    "display_match_is_probability": false,
+    "notice": "娱乐性质的自我认识测验；相似度是模型内归一化匹配分数，并非心理学概率。"
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "order": 1,
+      "category": "base",
+      "text": "即使一个方案能解决眼前的大部分问题，只要它触碰了我认定的底线，我仍然很难接受。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D1",
+          "weight": 1.0,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "海瑞",
+        "王用汲",
+        "胡宗宪"
+      ],
+      "story_reference": "海瑞坚持原则与浙江改稻为桑争论",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q02",
+      "order": 2,
+      "category": "base",
+      "text": "如果一项原本合理的规定在执行中伤害了无辜的人，我认为应该及时调整做法。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D5",
+          "weight": 1.0,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "胡宗宪",
+        "王用汲",
+        "海瑞"
+      ],
+      "story_reference": "改稻为桑的初衷与执行代价",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q03",
+      "order": 3,
+      "category": "base",
+      "text": "在团队讨论时，即使大家的建议都不错，我也希望最终的决定由自己作出。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D2",
+          "weight": 1.0,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "嘉靖",
+        "高拱",
+        "裕王"
+      ],
+      "story_reference": "嘉靖把握最终裁决权",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q04",
+      "order": 4,
+      "category": "base",
+      "text": "当别人比我更懂一件事时，我愿意把主要决定权交给对方。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D2",
+          "weight": 1.0,
+          "direction": -1
+        }
+      ],
+      "targets": [
+        "嘉靖",
+        "李时珍",
+        "裕王"
+      ],
+      "story_reference": "专业人士与掌权者的决策关系",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q05",
+      "order": 5,
+      "category": "base",
+      "text": "当一个人突然改变对我的态度时，我会留意背后是否发生了关系或利益的变化。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D3",
+          "weight": 1.0,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "吕芳",
+        "徐阶",
+        "高翰文"
+      ],
+      "story_reference": "朝中人物通过态度变化判断风向",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q06",
+      "order": 6,
+      "category": "base",
+      "text": "与人合作时，我一般先按对方说出来的意思理解，不会主动琢磨言外之意。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D3",
+          "weight": 1.0,
+          "direction": -1
+        }
+      ],
+      "targets": [
+        "高翰文",
+        "吕芳",
+        "杨金水"
+      ],
+      "story_reference": "书生理想与官场潜台词",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q07",
+      "order": 7,
+      "category": "base",
+      "text": "为了实现重要目标，即使很长时间看不到成果，我也能耐心坚持。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D4",
+          "weight": 1.0,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "张居正",
+        "徐阶",
+        "何茂才"
+      ],
+      "story_reference": "徐阶等待局势转变",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q08",
+      "order": 8,
+      "category": "base",
+      "text": "如果一个计划短期内迟迟没有进展，我通常会想换一条路，尽快看到结果。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D4",
+          "weight": 1.0,
+          "direction": -1
+        }
+      ],
+      "targets": [
+        "何茂才",
+        "张居正",
+        "高拱"
+      ],
+      "story_reference": "急于推进政务指标与长远筹划",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q09",
+      "order": 9,
+      "category": "base",
+      "text": "发现原先的办法行不通时，我通常能迅速调整思路，不执着于最初的方案。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D5",
+          "weight": 1.0,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "胡宗宪",
+        "杨金水",
+        "高翰文"
+      ],
+      "story_reference": "胡宗宪在浙江局势中的应变",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q10",
+      "order": 10,
+      "category": "base",
+      "text": "即使环境改变，我也倾向于沿用自己熟悉且信任的方法。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D5",
+          "weight": 1.0,
+          "direction": -1
+        }
+      ],
+      "targets": [
+        "海瑞",
+        "胡宗宪",
+        "杨金水"
+      ],
+      "story_reference": "面对政策变化的行事方式",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q11",
+      "order": 11,
+      "category": "base",
+      "text": "一件重要的事出了问题，即使并不是我的责任，我也会先想自己能做些什么补救。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D6",
+          "weight": 1.0,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "胡宗宪",
+        "王用汲",
+        "郑泌昌"
+      ],
+      "story_reference": "浙江水灾与地方官员处置方式",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q12",
+      "order": 12,
+      "category": "base",
+      "text": "遇到风险很高又不属于我职责的任务时，我会先确认权责边界，再考虑是否接手。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "F3",
+          "weight": 1.0,
+          "direction": 1
+        },
+        {
+          "key": "D10",
+          "weight": 0.3,
+          "direction": -1
+        }
+      ],
+      "targets": [
+        "赵贞吉",
+        "胡宗宪",
+        "郑泌昌"
+      ],
+      "story_reference": "赵贞吉在复杂局势中的审慎",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q13",
+      "order": 13,
+      "category": "base",
+      "text": "选择工作或机会时，它能带来多少收入、资源和地位，对我影响很大。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D7",
+          "weight": 1.0,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "严世蕃",
+        "杨金水",
+        "李时珍"
+      ],
+      "story_reference": "官商利益网络与个人追求",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q14",
+      "order": 14,
+      "category": "base",
+      "text": "只要我真心认同一件事的价值，即使它几乎不能带来实际回报，我仍愿意长期投入。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D7",
+          "weight": 1.0,
+          "direction": -1
+        },
+        {
+          "key": "D14",
+          "weight": 0.35,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "李时珍",
+        "高翰文",
+        "严世蕃"
+      ],
+      "story_reference": "行医修书与功名利益之别",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q15",
+      "order": 15,
+      "category": "base",
+      "text": "提出一个高效方案前，我会特别留意它是否让某些人承受了过重的代价。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D8",
+          "weight": 1.0,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "胡宗宪",
+        "吕芳",
+        "何茂才"
+      ],
+      "story_reference": "政策财政诉求与百姓生计",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q16",
+      "order": 16,
+      "category": "base",
+      "text": "需要迅速决策时，我通常先考虑事情能不能做成，而不是每个人会有什么感受。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D8",
+          "weight": 1.0,
+          "direction": -1
+        }
+      ],
+      "targets": [
+        "高拱",
+        "严世蕃",
+        "王用汲"
+      ],
+      "story_reference": "强势决策与体察民情",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q17",
+      "order": 17,
+      "category": "base",
+      "text": "即使对方比我有地位，只要我认为他判断错了，我也会当面提出意见。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D9",
+          "weight": 1.0,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "海瑞",
+        "高拱",
+        "徐阶"
+      ],
+      "story_reference": "海瑞直谏与高拱直率",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q18",
+      "order": 18,
+      "category": "base",
+      "text": "即使我与某个人意见不同，只要认同他的目标，我仍愿意与他一起承担行动风险。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D13",
+          "weight": 1.0,
+          "direction": 1
+        },
+        {
+          "key": "D10",
+          "weight": 0.3,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "王用汲",
+        "海瑞",
+        "胡宗宪"
+      ],
+      "story_reference": "王用汲与海瑞一同坚持立场",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q19",
+      "order": 19,
+      "category": "base",
+      "text": "只要我认为值得做，即使失败会失去现有机会，我也愿意尝试。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D10",
+          "weight": 1.0,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "海瑞",
+        "高拱",
+        "裕王"
+      ],
+      "story_reference": "直谏风险与稳妥保身",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q20",
+      "order": 20,
+      "category": "base",
+      "text": "即使新机会看起来很有吸引力，只要可能失去安稳生活，我通常会犹豫。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D10",
+          "weight": 1.0,
+          "direction": -1
+        }
+      ],
+      "targets": [
+        "裕王",
+        "赵贞吉",
+        "高拱"
+      ],
+      "story_reference": "裕王对政治风险的谨慎",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q21",
+      "order": 21,
+      "category": "base",
+      "text": "即使我十分尊重某个人，只要他的看法与我的判断不同，我仍会保留独立意见。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D11",
+          "weight": 1.0,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "李时珍",
+        "海瑞",
+        "冯保"
+      ],
+      "story_reference": "专业判断与对权威的态度",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q22",
+      "order": 22,
+      "category": "base",
+      "text": "即使非常失望或愤怒，我通常也能先不表露情绪，等合适时机再处理。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D12",
+          "weight": 1.0,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "徐阶",
+        "吕芳",
+        "严世蕃"
+      ],
+      "story_reference": "严嵩徐阶的隐忍与严世蕃的锋芒",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q23",
+      "order": 23,
+      "category": "base",
+      "text": "曾经帮助过我的人后来做了我不认同的事，我也不愿靠公开与他决裂来换取自己的好处。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "F10",
+          "weight": 1.0,
+          "direction": 1
+        },
+        {
+          "key": "D13",
+          "weight": 0.45,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "胡宗宪",
+        "吕芳",
+        "王用汲"
+      ],
+      "story_reference": "胡宗宪拒绝参与倒严仍守师生之义",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q24",
+      "order": 24,
+      "category": "base",
+      "text": "比起管理很多人，我更愿意把一门本领钻研到真正出色。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D14",
+          "weight": 1.0,
+          "direction": 1
+        },
+        {
+          "key": "D2",
+          "weight": 0.25,
+          "direction": -1
+        }
+      ],
+      "targets": [
+        "李时珍",
+        "高翰文",
+        "嘉靖"
+      ],
+      "story_reference": "李时珍医学专业志向",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q25",
+      "order": 25,
+      "category": "discrimination",
+      "text": "发现一项决定明显不合理时，即使能私下解决，我也倾向于让相关的人公开知道问题所在。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D1",
+          "weight": 1.0,
+          "direction": 1
+        },
+        {
+          "key": "D9",
+          "weight": 0.35,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "海瑞",
+        "王用汲"
+      ],
+      "story_reference": "海瑞直言与王用汲不同表达风格",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q26",
+      "order": 26,
+      "category": "discrimination",
+      "text": "复杂问题需要有人协调时，即使可能影响我的前途，我也愿意亲自接手，把事情真正解决。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D6",
+          "weight": 1.0,
+          "direction": 1
+        },
+        {
+          "key": "D10",
+          "weight": 0.3,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "胡宗宪",
+        "赵贞吉",
+        "李妃"
+      ],
+      "story_reference": "胡宗宪承担浙江与东南实务",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q27",
+      "order": 27,
+      "category": "discrimination",
+      "text": "即使我确信改革是对的，也会先争取关键人物支持，等条件成熟再推进。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D9",
+          "weight": 1.0,
+          "direction": -1
+        },
+        {
+          "key": "D4",
+          "weight": 0.45,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "张居正",
+        "高拱"
+      ],
+      "story_reference": "张居正的推进节奏与高拱强势作风",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q28",
+      "order": 28,
+      "category": "discrimination",
+      "text": "想改变一个长期存在的局面时，即使暂时无法行动，我也会持续积累资源，等待真正改变它的机会。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "F11",
+          "weight": 1.0,
+          "direction": 1
+        },
+        {
+          "key": "D4",
+          "weight": 0.3,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "徐阶",
+        "严嵩"
+      ],
+      "story_reference": "徐阶长久蓄势改变严党政治格局",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q29",
+      "order": 29,
+      "category": "discrimination",
+      "text": "比起直接发号施令，我更喜欢让不同的人提出方案，自己保留最终决定权。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "F1",
+          "weight": 1.0,
+          "direction": 1
+        },
+        {
+          "key": "D2",
+          "weight": 0.35,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "嘉靖",
+        "严世蕃"
+      ],
+      "story_reference": "嘉靖通过群臣表态维持制衡",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q30",
+      "order": 30,
+      "category": "discrimination",
+      "text": "遇到可能改变自己前途的机会，即使还没准备充分，我也会很想主动争取表现。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "F9",
+          "weight": 1.0,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "冯保",
+        "陈洪",
+        "杨金水"
+      ],
+      "story_reference": "冯保前期打死周云逸与抢报瑞雪",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q31",
+      "order": 31,
+      "category": "discrimination",
+      "text": "对我真心追随的人，我常会主动替他考虑可能令他为难的事，即使他没有开口。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "F7",
+          "weight": 1.0,
+          "direction": 1
+        },
+        {
+          "key": "D13",
+          "weight": 0.3,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "吕芳",
+        "杨金水",
+        "李妃"
+      ],
+      "story_reference": "吕芳从嘉靖角度考虑海瑞案卷",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q32",
+      "order": 32,
+      "category": "discrimination",
+      "text": "面对严重而复杂的麻烦，我会先厘清可能带来的后果与责任，再决定怎样行动。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D12",
+          "weight": 1.0,
+          "direction": 1
+        },
+        {
+          "key": "F3",
+          "weight": 0.45,
+          "direction": 1
+        },
+        {
+          "key": "D10",
+          "weight": 0.2,
+          "direction": -1
+        }
+      ],
+      "targets": [
+        "郑泌昌",
+        "何茂才"
+      ],
+      "story_reference": "郑泌昌审慎推诿与何茂才强硬冒进",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q33",
+      "order": 33,
+      "category": "discrimination",
+      "text": "即使现实中有些做法让我不舒服，只要能保住更重要的价值，我也可能选择暂时妥协。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D5",
+          "weight": 1.0,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "沈一石",
+        "高翰文"
+      ],
+      "story_reference": "沈一石处于官商网络与文化理想间",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q34",
+      "order": 34,
+      "category": "discrimination",
+      "text": "发现某个人对家人的未来可能很重要时，我会主动创造机会，让双方建立长期联系。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "F8",
+          "weight": 1.0,
+          "direction": 1
+        },
+        {
+          "key": "D4",
+          "weight": 0.3,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "李妃",
+        "裕王",
+        "吕芳"
+      ],
+      "story_reference": "李妃安排弟弟与高翰文、芸娘建立联系",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q35",
+      "order": 35,
+      "category": "discrimination",
+      "text": "即使不认同一个人的处世方式，只要他确实需要我的专业帮助，我仍愿意尽力做好本分。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D14",
+          "weight": 1.0,
+          "direction": 1
+        },
+        {
+          "key": "F5",
+          "weight": 0.5,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "李时珍",
+        "王用汲",
+        "海瑞"
+      ],
+      "story_reference": "李时珍为嘉靖开药方履行医者职责",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q36",
+      "order": 36,
+      "category": "discrimination",
+      "text": "对重要的人，我不只希望保护他眼前的处境，也会主动为他的长远发展安排机会。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D13",
+          "weight": 1.0,
+          "direction": 1
+        },
+        {
+          "key": "D4",
+          "weight": 0.3,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "李妃",
+        "吕芳"
+      ],
+      "story_reference": "李妃的家族布局与吕芳对干儿子的长期安排",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q37",
+      "order": 37,
+      "category": "deep",
+      "text": "即使有人能给我很多机会，我也不愿为了这些好处长期放弃自己的判断。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D11",
+          "weight": 1.0,
+          "direction": 1
+        },
+        {
+          "key": "D7",
+          "weight": 0.25,
+          "direction": -1
+        }
+      ],
+      "targets": [
+        "海瑞",
+        "李时珍",
+        "冯保"
+      ],
+      "story_reference": "海瑞独立性与宫廷依附关系",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q38",
+      "order": 38,
+      "category": "deep",
+      "text": "面对新认识的人，我一般愿意先给予基本信任，而不是从一开始就仔细设防。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "F6",
+          "weight": 1.0,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "世子",
+        "吕芳",
+        "赵贞吉"
+      ],
+      "story_reference": "隐藏款象征未被权力规则完全塑造的开放信任",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q39",
+      "order": 39,
+      "category": "deep",
+      "text": "对真正放在心上的人，即使我在其他事情上很看重得失，也愿意做些没有回报的事。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "D13",
+          "weight": 1.0,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "杨金水",
+        "吕芳",
+        "沈一石"
+      ],
+      "story_reference": "杨金水对芸娘的情义与官商逐利之间的复杂性",
+      "show_story_to_user": false,
+      "status": "pilot"
+    },
+    {
+      "id": "Q40",
+      "order": 40,
+      "category": "deep",
+      "text": "碰到不熟悉的新事物，即使暂时用不上，我也经常因为好奇想了解。",
+      "scale": {
+        "min": 0,
+        "max": 5,
+        "labels": [
+          "完全不符合",
+          "比较不符合",
+          "略微不符合",
+          "略微符合",
+          "比较符合",
+          "完全符合"
+        ]
+      },
+      "scoring": [
+        {
+          "key": "F6",
+          "weight": 1.0,
+          "direction": 1
+        }
+      ],
+      "targets": [
+        "世子",
+        "李时珍",
+        "高翰文"
+      ],
+      "story_reference": "隐藏款的好奇心；并非世子剧中明确展现的稳定人格",
+      "show_story_to_user": false,
+      "status": "pilot"
+    }
+  ]
+}

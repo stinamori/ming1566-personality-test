@@ -1,0 +1,595 @@
+{
+  "version": "4.1.0",
+  "characters": [
+    {
+      "id": "海瑞",
+      "name": "海瑞",
+      "title": "孤直守正",
+      "description": "信念明确，宁可失去个人安稳也不轻易退让；敢于直面权威。",
+      "dimensions": {
+        "D1": 5,
+        "D2": 1,
+        "D3": 3,
+        "D4": 3,
+        "D5": 0,
+        "D6": 5,
+        "D7": 0,
+        "D8": 4,
+        "D9": 5,
+        "D10": 5,
+        "D11": 5,
+        "D12": 4,
+        "D13": 4,
+        "D14": 4
+      },
+      "features": {
+        "F10": 4
+      },
+      "avatar": "/assets/characters/海瑞.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "嘉靖",
+      "name": "嘉靖",
+      "title": "洞察与制衡",
+      "description": "擅长保留最终裁决权，习惯通过他人的行动掌控复杂局面。",
+      "dimensions": {
+        "D1": 2,
+        "D2": 5,
+        "D3": 5,
+        "D4": 5,
+        "D5": 5,
+        "D6": 2,
+        "D7": 4,
+        "D8": 1,
+        "D9": 3,
+        "D10": 2,
+        "D11": 5,
+        "D12": 5,
+        "D13": 1,
+        "D14": 3
+      },
+      "features": {
+        "F1": 5
+      },
+      "avatar": "/assets/characters/嘉靖.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "胡宗宪",
+      "name": "胡宗宪",
+      "title": "守义的实干家",
+      "description": "洞察复杂现实，能在军务、救灾与政务中承担难局；有令人信服的担当和领导魅力，明辨严党之弊却不愿为政治利益背弃恩师。",
+      "dimensions": {
+        "D1": 4,
+        "D2": 3,
+        "D3": 5,
+        "D4": 5,
+        "D5": 5,
+        "D6": 5,
+        "D7": 1,
+        "D8": 4,
+        "D9": 3,
+        "D10": 4,
+        "D11": 4,
+        "D12": 5,
+        "D13": 5,
+        "D14": 4
+      },
+      "features": {
+        "F10": 5,
+        "F3": 1
+      },
+      "avatar": "/assets/characters/胡宗宪.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "严嵩",
+      "name": "严嵩",
+      "title": "权势守成者",
+      "description": "善于隐忍和经营关系，把维持既有权力网络放在核心位置。",
+      "dimensions": {
+        "D1": 2,
+        "D2": 4,
+        "D3": 5,
+        "D4": 5,
+        "D5": 5,
+        "D6": 2,
+        "D7": 5,
+        "D8": 2,
+        "D9": 1,
+        "D10": 2,
+        "D11": 3,
+        "D12": 5,
+        "D13": 3,
+        "D14": 1
+      },
+      "features": {
+        "F2": 5,
+        "F11": 2
+      },
+      "avatar": "/assets/characters/严嵩.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "严世蕃",
+      "name": "严世蕃",
+      "title": "锋芒毕露的逐利者",
+      "description": "反应敏锐，追求实权与资源，习惯直接施压。",
+      "dimensions": {
+        "D1": 0,
+        "D2": 5,
+        "D3": 4,
+        "D4": 2,
+        "D5": 3,
+        "D6": 1,
+        "D7": 5,
+        "D8": 0,
+        "D9": 5,
+        "D10": 4,
+        "D11": 4,
+        "D12": 1,
+        "D13": 2,
+        "D14": 1
+      },
+      "features": {
+        "F1": 1,
+        "F4": 4
+      },
+      "avatar": "/assets/characters/严世蕃.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "吕芳",
+      "name": "吕芳",
+      "title": "知帝心的守护者",
+      "description": "深知嘉靖心思，凡事先从皇帝立场考虑，甚至因过度保护而越权；同时重视对杨金水、冯保等人的情义。",
+      "dimensions": {
+        "D1": 3,
+        "D2": 3,
+        "D3": 5,
+        "D4": 5,
+        "D5": 5,
+        "D6": 4,
+        "D7": 2,
+        "D8": 5,
+        "D9": 1,
+        "D10": 2,
+        "D11": 3,
+        "D12": 5,
+        "D13": 5,
+        "D14": 2
+      },
+      "features": {
+        "F7": 5,
+        "F8": 2
+      },
+      "avatar": "/assets/characters/吕芳.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "张居正",
+      "name": "张居正",
+      "title": "战略改革者",
+      "description": "目光长远，愿为系统性改变布局并承担责任。",
+      "dimensions": {
+        "D1": 4,
+        "D2": 4,
+        "D3": 5,
+        "D4": 5,
+        "D5": 4,
+        "D6": 5,
+        "D7": 2,
+        "D8": 3,
+        "D9": 3,
+        "D10": 4,
+        "D11": 5,
+        "D12": 5,
+        "D13": 3,
+        "D14": 5
+      },
+      "features": {
+        "F11": 4
+      },
+      "avatar": "/assets/characters/张居正.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "王用汲",
+      "name": "王用汲",
+      "title": "温厚的同行者",
+      "description": "有正义感和独立判断，也珍惜朋友与具体的人；认同海瑞的原则并愿共同担责，而非一味附和或退让。",
+      "dimensions": {
+        "D1": 5,
+        "D2": 1,
+        "D3": 3,
+        "D4": 3,
+        "D5": 3,
+        "D6": 5,
+        "D7": 0,
+        "D8": 5,
+        "D9": 3,
+        "D10": 4,
+        "D11": 4,
+        "D12": 3,
+        "D13": 5,
+        "D14": 3
+      },
+      "features": {
+        "F10": 4
+      },
+      "avatar": "/assets/characters/王用汲.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "沈一石",
+      "name": "沈一石",
+      "title": "现实中的理想者",
+      "description": "精通现实利益规则，仍努力保留文化追求与人格尊严。",
+      "dimensions": {
+        "D1": 3,
+        "D2": 2,
+        "D3": 5,
+        "D4": 4,
+        "D5": 4,
+        "D6": 3,
+        "D7": 3,
+        "D8": 4,
+        "D9": 1,
+        "D10": 2,
+        "D11": 4,
+        "D12": 5,
+        "D13": 4,
+        "D14": 5
+      },
+      "features": {
+        "F5": 3
+      },
+      "avatar": "/assets/characters/沈一石.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "陈洪",
+      "name": "陈洪",
+      "title": "地位防御者",
+      "description": "对权位变动高度敏感，习惯通过控制与压制保护自身。",
+      "dimensions": {
+        "D1": 0,
+        "D2": 5,
+        "D3": 4,
+        "D4": 3,
+        "D5": 4,
+        "D6": 1,
+        "D7": 5,
+        "D8": 0,
+        "D9": 4,
+        "D10": 3,
+        "D11": 2,
+        "D12": 2,
+        "D13": 0,
+        "D14": 0
+      },
+      "features": {
+        "F4": 5,
+        "F9": 3
+      },
+      "avatar": "/assets/characters/陈洪.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "高拱",
+      "name": "高拱",
+      "title": "强势改革者",
+      "description": "行动果断、直率强硬，宁可激化矛盾也愿推动判断正确之事。",
+      "dimensions": {
+        "D1": 4,
+        "D2": 5,
+        "D3": 3,
+        "D4": 4,
+        "D5": 2,
+        "D6": 5,
+        "D7": 2,
+        "D8": 2,
+        "D9": 5,
+        "D10": 4,
+        "D11": 5,
+        "D12": 2,
+        "D13": 3,
+        "D14": 4
+      },
+      "features": {
+        "F11": 4
+      },
+      "avatar": "/assets/characters/高拱.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "徐阶",
+      "name": "徐阶",
+      "title": "隐忍的布局者",
+      "description": "深谙官场与权力交换，能长期维系表面关系、积蓄力量并等待改变权力格局的机会，而非只求温和自保。",
+      "dimensions": {
+        "D1": 3,
+        "D2": 4,
+        "D3": 5,
+        "D4": 5,
+        "D5": 5,
+        "D6": 3,
+        "D7": 3,
+        "D8": 3,
+        "D9": 1,
+        "D10": 2,
+        "D11": 4,
+        "D12": 5,
+        "D13": 3,
+        "D14": 3
+      },
+      "features": {
+        "F11": 5,
+        "F2": 2
+      },
+      "avatar": "/assets/characters/徐阶.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "李时珍",
+      "name": "李时珍",
+      "title": "仁心的专业主义者",
+      "description": "坚持医者专业判断与救人职责，即便不认同权贵的行为也能提供医疗帮助；重视具体生命而非权力争胜。",
+      "dimensions": {
+        "D1": 5,
+        "D2": 0,
+        "D3": 2,
+        "D4": 4,
+        "D5": 2,
+        "D6": 5,
+        "D7": 0,
+        "D8": 5,
+        "D9": 3,
+        "D10": 4,
+        "D11": 5,
+        "D12": 4,
+        "D13": 4,
+        "D14": 5
+      },
+      "features": {
+        "F5": 5
+      },
+      "avatar": "/assets/characters/李时珍.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "裕王",
+      "name": "裕王",
+      "title": "仁厚谨慎者",
+      "description": "珍惜稳定与亲近关系，面对复杂斗争倾向慎重决策。",
+      "dimensions": {
+        "D1": 3,
+        "D2": 1,
+        "D3": 2,
+        "D4": 3,
+        "D5": 2,
+        "D6": 3,
+        "D7": 1,
+        "D8": 4,
+        "D9": 1,
+        "D10": 1,
+        "D11": 2,
+        "D12": 2,
+        "D13": 5,
+        "D14": 2
+      },
+      "features": {
+        "F8": 2
+      },
+      "avatar": "/assets/characters/裕王.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "李妃",
+      "name": "李妃",
+      "title": "温柔的布局者",
+      "description": "心思细密、克制沉稳，既保护裕王和世子，也主动经营家族与人才关系；善于用柔性方式为未来布局。",
+      "dimensions": {
+        "D1": 4,
+        "D2": 3,
+        "D3": 5,
+        "D4": 5,
+        "D5": 4,
+        "D6": 4,
+        "D7": 1,
+        "D8": 5,
+        "D9": 2,
+        "D10": 3,
+        "D11": 4,
+        "D12": 5,
+        "D13": 5,
+        "D14": 3
+      },
+      "features": {
+        "F8": 5,
+        "F7": 2
+      },
+      "avatar": "/assets/characters/李妃.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "杨金水",
+      "name": "杨金水",
+      "title": "圆融的生存高手",
+      "description": "在官商利益与宫廷关系中高度机敏、善于应变；对一般利益取舍现实，对吕芳及芸娘却保有深切私人情义。",
+      "dimensions": {
+        "D1": 1,
+        "D2": 3,
+        "D3": 5,
+        "D4": 4,
+        "D5": 5,
+        "D6": 2,
+        "D7": 4,
+        "D8": 3,
+        "D9": 2,
+        "D10": 3,
+        "D11": 3,
+        "D12": 5,
+        "D13": 4,
+        "D14": 2
+      },
+      "features": {
+        "F7": 4,
+        "F9": 2
+      },
+      "avatar": "/assets/characters/杨金水.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "赵贞吉",
+      "name": "赵贞吉",
+      "title": "审慎权衡者",
+      "description": "深谙政治规则，面对风险优先厘清责任与形势。",
+      "dimensions": {
+        "D1": 2,
+        "D2": 3,
+        "D3": 5,
+        "D4": 4,
+        "D5": 5,
+        "D6": 2,
+        "D7": 3,
+        "D8": 2,
+        "D9": 2,
+        "D10": 1,
+        "D11": 3,
+        "D12": 4,
+        "D13": 2,
+        "D14": 2
+      },
+      "features": {
+        "F3": 5
+      },
+      "avatar": "/assets/characters/赵贞吉.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "郑泌昌",
+      "name": "郑泌昌",
+      "title": "算计避责者",
+      "description": "关注自身得失与权责，习惯用程序和话术规避危机。",
+      "dimensions": {
+        "D1": 0,
+        "D2": 3,
+        "D3": 3,
+        "D4": 2,
+        "D5": 4,
+        "D6": 0,
+        "D7": 5,
+        "D8": 0,
+        "D9": 2,
+        "D10": 2,
+        "D11": 1,
+        "D12": 3,
+        "D13": 1,
+        "D14": 0
+      },
+      "features": {
+        "F3": 4
+      },
+      "avatar": "/assets/characters/郑泌昌.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "何茂才",
+      "name": "何茂才",
+      "title": "强硬冒进者",
+      "description": "倾向依赖权势与即时行动，容易低估复杂后果。",
+      "dimensions": {
+        "D1": 0,
+        "D2": 4,
+        "D3": 1,
+        "D4": 1,
+        "D5": 2,
+        "D6": 0,
+        "D7": 5,
+        "D8": 0,
+        "D9": 5,
+        "D10": 4,
+        "D11": 1,
+        "D12": 1,
+        "D13": 1,
+        "D14": 0
+      },
+      "features": {
+        "F3": 0
+      },
+      "avatar": "/assets/characters/何茂才.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "高翰文",
+      "name": "高翰文",
+      "title": "书生理想者",
+      "description": "信任知识与制度的力量，追求理想也逐渐遭遇现实难题。",
+      "dimensions": {
+        "D1": 4,
+        "D2": 1,
+        "D3": 1,
+        "D4": 4,
+        "D5": 1,
+        "D6": 3,
+        "D7": 1,
+        "D8": 4,
+        "D9": 2,
+        "D10": 2,
+        "D11": 3,
+        "D12": 2,
+        "D13": 4,
+        "D14": 5
+      },
+      "features": {
+        "F5": 4
+      },
+      "avatar": "/assets/characters/高翰文.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "冯保",
+      "name": "冯保",
+      "title": "求进的学习者",
+      "description": "前期强烈渴望表现和获赏识，急于求进、偶有冒进；经历挫折与教导后逐渐习得审慎布局。",
+      "dimensions": {
+        "D1": 2,
+        "D2": 4,
+        "D3": 4,
+        "D4": 4,
+        "D5": 4,
+        "D6": 3,
+        "D7": 4,
+        "D8": 3,
+        "D9": 2,
+        "D10": 3,
+        "D11": 3,
+        "D12": 3,
+        "D13": 4,
+        "D14": 2
+      },
+      "features": {
+        "F9": 5,
+        "F4": 2
+      },
+      "avatar": "/assets/characters/冯保.png",
+      "model_status": "provisional_v4_1"
+    },
+    {
+      "id": "世子",
+      "name": "世子",
+      "title": "保有童真的探索者",
+      "description": "象征对人与世界尚保留信任和好奇的成长可能性。",
+      "dimensions": null,
+      "features": {
+        "F6": 5
+      },
+      "avatar": "/assets/characters/世子.png",
+      "is_hidden": true,
+      "model_status": "provisional_v4_1"
+    }
+  ],
+  "notes": "V4.0题库搭配V4.1角色画像：按剧情补充修正8位人物；待真实试测校准。"
+}
