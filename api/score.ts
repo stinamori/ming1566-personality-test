@@ -1,1 +1,1 @@
-export {scoreHandler as default} from '../server/handler';
+export {scoreHandler as default} from '../server/handler.js';
